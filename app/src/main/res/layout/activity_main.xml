@@ -53,5 +53,19 @@
         android:textSize="15sp"/>
 
 
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restart"
+        android:paddingStart="21dp"
+        android:paddingEnd="21dp"
+        android:visibility="gone"
+        android:onClick="restart"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#3498db"
+        android:textColor="#ecf0f1"
+        android:textSize="15sp"/>
 
 </RelativeLayout>
